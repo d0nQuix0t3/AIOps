@@ -1,0 +1,8 @@
+.DS_Store
+logs/
+logs-docker/
+out/
+
+meta.json
+registry
+
