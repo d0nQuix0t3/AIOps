@@ -1,3 +1,0 @@
-flask
-dash
-elastic-apm[flask]
