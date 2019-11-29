@@ -11,8 +11,11 @@ Sandbox for Analyzing System Logs/Metrics
 - [x] Filebeats
 - [x] Metricbeats
 - [x] Heartbeats
-- [ ] Packetbeats
+- [ ] Packetbeats (ADD INDEX AUTOMATICALLY - https://www.elastic.co/guide/en/beats/packetbeat/current/packetbeat-template.html)
 
 ### ML Stack
 - [ ] Dashboard (Data Explorer/Guide)
-- [ ] Data/Model Pipeline
+- [ ] Data Pipeline
+- [ ] Model Pipeline
+- [ ] AI Python Package
+
