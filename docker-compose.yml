@@ -288,5 +288,18 @@ services:
       - elasticsearch
       - kibana
 
+
+  ml-sandbox:
+    hostname: ml-sandbox
+    container_name: ml-sandbox
+    image: jupyter/datascience-notebook
+    volumes:
+      - $PWD/machine-learning/ml-sandbox:/home/jovyan/notebooks
+    ports:
+      - 8888:8888
+    networks:
+        - stack
+
+
 networks:
   stack: {}
